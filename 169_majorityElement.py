@@ -1,10 +1,13 @@
 '''
-  Method1: Brute Force
-  Method2: Sort
-  Method3: Hash-Table
-  Method4: Boyer-Moore Algorithm
-  Method5: Randomization
-  Medhod6: Divide and Conquer
+    Method1: Brute Force
+    Method2: Sort
+    Method3: Hash-Table
+    Method4: Boyer-Moore Algorithm
+    Method5: Randomization
+    Medhod6: Divide and Conquer
+    
+    Author: Xinting
+    Date  : 2019-11-04
 '''
 
 
@@ -46,6 +49,9 @@ class Solution:
 # Boyer-Moore Algorithm
 # Time Complexity: O(N)
 # Space Complexity: O(1)
+'''
+    candidate==num 和 count==0 顺序不一样 这里都可以 但是229题不能互换
+'''
 class Solution:
     def majorityElement(self, nums: List[int]) -> int:
         cnt = 0
@@ -54,6 +60,21 @@ class Solution:
                 candidate = num
             if num == candidate:
                 cnt += 1
+            else:
+                cnt -= 1
+        return candidate
+      
+
+class Solution:
+    def majorityElement(self, nums: List[int]) -> int:
+        cnt = 0
+        candidate = 0
+        for num in nums:
+            if num == candidate:
+                cnt += 1
+            elif cnt == 0:
+                candidate = num
+                cnt = 1
             else:
                 cnt -= 1
         return candidate
