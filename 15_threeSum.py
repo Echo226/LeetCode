@@ -1,6 +1,5 @@
 # Time Complexity: O(n^2)
 # Space Complexity: O(n)
-''' 怎么证明保证了去重？ '''
 class Solution:
     def threeSum(self, nums: List[int]) -> List[List[int]]:
         res = []
