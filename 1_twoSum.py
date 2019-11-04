@@ -1,3 +1,12 @@
+'''
+    Method1: Brute Force
+    Method2: Two-pass Hash Table
+    Method3: One-pass Hash Table
+    
+    Author: Xinting
+    Date: 2019-11-04
+'''
+
 # Brute Force
 # Time Complexity: O(n^2)
 # Space Complexity: O(1)
