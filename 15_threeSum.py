@@ -5,7 +5,7 @@ class Solution:
     def threeSum(self, nums: List[int]) -> List[List[int]]:
         res = []
         nums.sort()
-        print(nums)
+
         for cur in range(len(nums)):
             
             if nums[cur] > 0: break
