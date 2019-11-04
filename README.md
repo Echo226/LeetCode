@@ -2,10 +2,10 @@
 
 ## Array
 
-| Question               | Code               | Solution |
-| :--------------------- | :----------------- | :------- |
-| 1_twoSum               | twoSum.py          |          |
-| 15_threeSum            | threeSum.py        |          |
-| 169_MajorityElement    | MajorityElement.py |          |
-| 229_MajorityElement_II | MajorityElement.py |          |
+| Code                   | Question           | Difficulity |
+| :--------------------- | :----------------- | :-------    |
+| [1](https://github.com/Echo226/LeetCode/blob/master/1_twoSum.py)                     | twoSum             |             |
+| [15](https://github.com/Echo226/LeetCode/blob/master/15_threeSum.py)                     | threeSum           |             |
+| [169](https://github.com/Echo226/LeetCode/blob/master/169_majorityElement.py)                    | MajorityElement    |             |
+| [229](https://github.com/Echo226/LeetCode/blob/master/229_majorityElement.py)                    | MajorityElementII  |             |
 
