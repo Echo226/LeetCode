@@ -1,7 +1,8 @@
 '''
     Method1: Naive Recurison
-    Method2: Dynamic Programming - Memoization
-    Method3: Dynamic Programming - Bottom_up
+    Method2: Memoization - Top_Down
+    Method3: Memoization - Bottom_up with Space Complexity O(N)
+    Method4: Memoization - Bottom_up with Space Complexity O(1)
 ''''
 
 # Naive Recursion
